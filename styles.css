@@ -10,3 +10,6 @@
     height: 10%;
     width: 10%;
 }
+body {
+    background-image: url("images/cat.png");
+}
