@@ -4,7 +4,7 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 body {
@@ -22,4 +22,25 @@ img {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+}
+.div2 {
+    width: 400px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(43, 6, 6, 0.507);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 1px black;
+    text-align: left;
+}
+
+p {
+    color: white;
+}
+
+
+a:hover {
+    opacity: .70;
 }
