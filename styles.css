@@ -1,16 +1,13 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
-
-h1 {
-    text-align: center;
-    margin: 100px 0;
+html {
+    font-size: 62.5%;
 }
 
 body {
     background: url("images/palms.jpg") no-repeat fixed center center;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 img {
     width: 400px;
@@ -18,12 +15,26 @@ img {
     box-shadow: 2px 2px 4px black;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 5.0rem;
+}
+
 .div1 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
-.div2 {
+
+a:hover {
+    opacity: .80;
+}
+
+
+
+.div0 {
     width: 400px;
     border: 1px solid white;
     text-align: center;
@@ -31,16 +42,17 @@ img {
     background-color: rgba(43, 6, 6, 0.507);
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     text-shadow: 1px 1px 1px black;
     text-align: left;
 }
 
 p {
     color: white;
+    background-image: url("images/cat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.6rem;
 }
 
 
-a:hover {
-    opacity: .70;
-}
