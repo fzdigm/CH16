@@ -27,7 +27,6 @@ h1 {
     display: flex;
     flex-flow:row nowrap;
     justify-content: space-evenly;
-    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -57,10 +56,11 @@ p {
     background-size: cover;
     font-size: 1.8rem;
 }
-@media (min-width:869px) and (max-width:1050px) {
+@media (min-width:869px) and (max-width:1100px) {
     img {
-        width: 290px;
-        height: 290px;   
+        width: 275px;
+        height: 275px; 
+        padding:5px;  
     }
 }
 
